@@ -120,7 +120,7 @@ private struct Generator {
         
         
         public struct DeviceList {
-        \tpublic let all: [Identifier: [DeviceType]] = [
+        \tpublic static let all: [Identifier: [DeviceType]] = [
         \(try {
             try dictionary.map { group in
         """
